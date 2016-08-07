@@ -4,10 +4,10 @@ var admins = require('../config/administrators.json');
 var Twit = require('twit')
 
 var T = new Twit({
-  consumer_key:         'h4AWFpAwS2Q8cp3AEv6S9MdIh',
-  consumer_secret:      'yYq8MZ9hvOMFPeeWbPrFLxwkRn1pykl6MdJGiujXzkjUCYhqjx',
-  access_token:         '1532446794-YBeS9M1wDsmxoHef8l2GPnQMBpD10vZKTZHz6gg',
-  access_token_secret:  'ZjqZCEOC0hZF818rhfBmzPgB2zcU0FZsAGdPC3gtfYeDs',
+  consumer_key:         '',
+  consumer_secret:      '',
+  access_token:         '',
+  access_token_secret:  '',
   timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
 })
 
